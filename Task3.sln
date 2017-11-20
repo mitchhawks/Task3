@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipeClient", "PipeClient\PipeClient.csproj", "{AA43DED4-7EE8-466C-B40F-61D0A6620FE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipeServer", "PipeServer\PipeServer.csproj", "{E6B9817B-5DB1-4747-A57A-A2D9EB4377A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorLibrary", "ColorLibrary\ColorLibrary.csproj", "{F0DF1443-7DA1-4641-AE3D-C461FD62D303}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA43DED4-7EE8-466C-B40F-61D0A6620FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA43DED4-7EE8-466C-B40F-61D0A6620FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA43DED4-7EE8-466C-B40F-61D0A6620FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA43DED4-7EE8-466C-B40F-61D0A6620FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B9817B-5DB1-4747-A57A-A2D9EB4377A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B9817B-5DB1-4747-A57A-A2D9EB4377A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B9817B-5DB1-4747-A57A-A2D9EB4377A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B9817B-5DB1-4747-A57A-A2D9EB4377A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0DF1443-7DA1-4641-AE3D-C461FD62D303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0DF1443-7DA1-4641-AE3D-C461FD62D303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0DF1443-7DA1-4641-AE3D-C461FD62D303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0DF1443-7DA1-4641-AE3D-C461FD62D303}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
