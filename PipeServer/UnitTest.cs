@@ -28,7 +28,7 @@ namespace PipeServer
         }
 
         [TestCase]
-        public static void UseText()
+        public static void UnitTest_PipeServer()
         {
             using (var sw = new StringWriter())
             {
